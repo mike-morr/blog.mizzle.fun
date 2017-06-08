@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
+import { TdMediaService } from '@covalent/core';
 
 @Component({
   selector: 'blog-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog';
+  constructor() {}
 }
